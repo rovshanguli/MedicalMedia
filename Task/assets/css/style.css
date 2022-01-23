@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main #featured .mycard .carddesign a, main #cards a {
+  background-color: #F99643;
+  color: white;
+}
+
+#head .header {
+  background-color: #2F2F2F;
+}
+
+#head .header .logo {
+  height: 10vh;
+}
+
+#head .header .logo img {
+  width: 20%;
+  height: 100%;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+#head .header .mynavbar {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#head .header .mynavbar .navbaritem {
+  margin-top: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #featured {
+  background-color: #F1F1F1;
+}
+
+main #featured .mycard {
+  margin-top: 30px;
+}
+
+main #featured .mycard .carddesign p {
+  margin-top: 30px;
+}
+
+main #featured .mycard .carddesign h2 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+main #featured .mycard .carddesign a {
+  display: inline-block;
+}
+
+main #cards h2 {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+main #cards .mycards {
+  padding-left: 50px;
+}
+
+footer #contact {
+  padding-top: 50px;
+  background-color: #2F2F2F;
+}
+
+footer #contact ul {
+  margin-bottom: 30px;
+}
+
+footer #contact ul li {
+  background: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
